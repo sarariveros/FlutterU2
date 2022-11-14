@@ -40,6 +40,16 @@ class MenuWidget extends StatelessWidget {
                       builder: (context) => const Home5(),
                     ));
               },
+            ),
+            ButtonWidget(
+              text: 'Sesion 6',
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const Home5(),
+                    ));
+              },
             )
             // MaterialButton(onPressed: onPressed)
           ],
