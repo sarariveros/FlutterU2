@@ -3,6 +3,7 @@ import 'package:sesion_3_1/page/widgetdemo.dart';
 
 import '../sesion4/home_4.dart';
 import '../sesion5/home_5.dart';
+import '../sesion6/home_6.dart';
 
 class MenuWidget extends StatelessWidget {
   const MenuWidget({super.key});
@@ -47,7 +48,7 @@ class MenuWidget extends StatelessWidget {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => const Home5(),
+                      builder: (context) => const Home6(),
                     ));
               },
             )
