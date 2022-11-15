@@ -5,15 +5,16 @@ class ButtonWidget extends StatelessWidget {
   // const ButtonWidget({super.key});
   final String? text;
   final Function? onPressed;
+  final Color? color;
 
-  const ButtonWidget({super.key, this.text = '', this.onPressed});
+  const ButtonWidget({super.key, this.text = '', this.onPressed, this.color});
   @override
   Widget build(BuildContext context) {
     return MaterialButton(
       height: 50,
       minWidth: double.infinity,
       elevation: 1,
-      color: Colors.black,
+      color: this.color,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
       child: Text(
         text!,

@@ -25,6 +25,7 @@ class Home4 extends StatelessWidget {
           children: [
             ButtonWidget(
               text: 'Email & Password',
+              color: Colors.brown,
               onPressed: () {
                 Navigator.push(
                     context,
@@ -35,6 +36,7 @@ class Home4 extends StatelessWidget {
             ),
             ButtonWidget(
               text: 'checkBox - Switch',
+              color: Colors.brown,
               onPressed: () {
                 Navigator.push(
                     context,
@@ -45,6 +47,7 @@ class Home4 extends StatelessWidget {
             ),
             ButtonWidget(
               text: 'Slider',
+              color: Colors.brown,
               onPressed: () {
                 Navigator.push(
                     context,
@@ -55,6 +58,7 @@ class Home4 extends StatelessWidget {
             ),
             ButtonWidget(
               text: 'Scrool - ListView -PullRefresh',
+              color: Colors.brown,
               onPressed: () {
                 Navigator.push(
                     context,
