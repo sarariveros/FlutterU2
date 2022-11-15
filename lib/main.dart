@@ -43,7 +43,7 @@ class Home extends StatelessWidget {
         elevation: 0,
       ),
       body: Padding(
-        padding: const EdgeInsets.all(15.0),
+        padding: EdgeInsets.all(15.0),
         child: ListView(
           children: [
             MaterialButton(
@@ -55,45 +55,45 @@ class Home extends StatelessWidget {
                   style: TextStyle(color: Colors.white, fontSize: 18),
                 ),
                 minWidth: double.infinity,
-                color: Color.fromARGB(255, 62, 177, 123),
+                color: const Color.fromARGB(255, 62, 177, 123),
                 onPressed: () {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
                           builder: (context) => const ListTitle_Sara()));
                 }),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
             MaterialButton(
                 height: 50,
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10)),
-                child: Text(
+                child: const Text(
                   'Mi imagen Favorita',
                   style: TextStyle(color: Colors.white, fontSize: 18),
                 ),
                 minWidth: double.infinity,
-                color: Color.fromARGB(255, 62, 177, 123),
+                color: const Color.fromARGB(255, 62, 177, 123),
                 onPressed: () {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
                           builder: (context) => const Image_Sara()));
                 }),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
             MaterialButton(
                 height: 50,
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10)),
-                child: Text(
+                child: const Text(
                   'Animacion',
                   style: TextStyle(color: Colors.white, fontSize: 18),
                 ),
                 minWidth: double.infinity,
-                color: Color.fromARGB(255, 62, 177, 123),
+                color: const Color.fromARGB(255, 62, 177, 123),
                 onPressed: () {
                   Navigator.push(
                       context,
