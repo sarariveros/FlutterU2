@@ -152,8 +152,6 @@ class _Home6State extends State<Home6> {
                                   fontWeight: FontWeight.w400,
                                   color: Colors.black,
                                   letterSpacing: 2),
-
-                              //GoogleFonts.lobster(fontSize: 20),
                             ),
                           ],
                         ),

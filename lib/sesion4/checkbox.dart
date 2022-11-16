@@ -44,7 +44,7 @@ class _CheckBoxSwitchWidgetState extends State<CheckBoxSwitchWidget> {
               activeColor: CupertinoColors.activeBlue,
               onChanged: (value) {
                 setState(() {
-                  isSwitchedCupertino = value!;
+                  isSwitchedCupertino = value;
                 });
               },
             )

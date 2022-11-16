@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:sesion_3_1/page/widgetdemo.dart';
+import 'package:sesion_3_1/sesion7/screen/home7.dart';
+import 'package:sesion_3_1/sesion7/scrolltiktik.dart';
+import 'package:sesion_3_1/travel_agency/home_travelAgency.dart';
 
 import '../sesion4/home_4.dart';
 import '../sesion5/home_5.dart';
@@ -68,13 +71,13 @@ class MenuWidget extends StatelessWidget {
                 height: 10,
               ),
               ButtonWidget(
-                text: 'Sesion 7',
+                text: 'Travel Agency',
                 color: Colors.amber,
                 onPressed: () {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => const Home6(),
+                        builder: (context) => const HomeTraveAgency(),
                       ));
                 },
               ),
@@ -82,13 +85,13 @@ class MenuWidget extends StatelessWidget {
                 height: 10,
               ),
               ButtonWidget(
-                text: 'Sesion 8',
+                text: 'Sesion 7',
                 color: Colors.red,
                 onPressed: () {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => const Home6(),
+                        builder: (context) => const Home7(),
                       ));
                 },
               ),
@@ -96,13 +99,13 @@ class MenuWidget extends StatelessWidget {
                 height: 10,
               ),
               ButtonWidget(
-                text: 'Sesion 9',
+                text: 'tikTok',
                 color: Colors.amber,
                 onPressed: () {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => const Home6(),
+                        builder: (context) => const ScrollTikTokWidget(),
                       ));
                 },
               ),
