@@ -41,6 +41,7 @@ dependencies:
   google_fonts: ^3.0.1
   font_awesome_flutter: '>= 4.7.0'
   tiktoklikescroller: ^0.2.3
+  marquee: ^2.2.3
 
 dev_dependencies:
   flutter_test:

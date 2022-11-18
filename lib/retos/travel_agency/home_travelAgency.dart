@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:sesion_3_1/page/widgetdemo.dart';
 
-import 'package:sesion_3_1/travel_agency/screen/1.dart';
+import 'package:sesion_3_1/retos/travel_agency/screen/1.dart';
 
 class HomeTraveAgency extends StatelessWidget {
   const HomeTraveAgency({super.key});
