@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:sesion_3_1/page/widgetdemo.dart';
-import 'package:sesion_3_1/travel_agency/home_travelAgency.dart';
-import 'package:sesion_3_1/travel_agency/widgets/titleWidget.dart';
+import 'package:sesion_3_1/retos/travel_agency/home_travelAgency.dart';
+import 'package:sesion_3_1/retos/travel_agency/widgets/titleWidget.dart';
 
 class Contact extends StatelessWidget {
   const Contact({super.key});

@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:sesion_3_1/page/widgetdemo.dart';
+import 'package:sesion_3_1/retos/retos_menu.dart';
 import 'package:sesion_3_1/sesion7/screen/home7.dart';
-import 'package:sesion_3_1/sesion7/scrolltiktik.dart';
-import 'package:sesion_3_1/travel_agency/home_travelAgency.dart';
+import 'package:sesion_3_1/sesion7/scrolltiktok.dart';
+import 'package:sesion_3_1/retos/travel_agency/home_travelAgency.dart';
+import 'package:sesion_3_1/sesion8/screens/home8.dart';
 
 import '../sesion4/home_4.dart';
 import '../sesion5/home_5.dart';
@@ -29,6 +31,18 @@ class MenuWidget extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               ButtonWidget(
+                text: 'Retos',
+                color: Colors.amber,
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const RetosMenu(),
+                      ));
+                },
+              ),
+
+              ButtonWidget(
                 text: 'Sesion 4',
                 color: Colors.red,
                 onPressed: () {
@@ -39,9 +53,7 @@ class MenuWidget extends StatelessWidget {
                       ));
                 },
               ),
-              const SizedBox(
-                height: 10,
-              ),
+
               ButtonWidget(
                 text: 'Sesion 5',
                 color: Colors.amber,
@@ -53,9 +65,7 @@ class MenuWidget extends StatelessWidget {
                       ));
                 },
               ),
-              const SizedBox(
-                height: 10,
-              ),
+
               ButtonWidget(
                 text: 'Sesion 6',
                 color: Colors.red,
@@ -67,26 +77,10 @@ class MenuWidget extends StatelessWidget {
                       ));
                 },
               ),
-              const SizedBox(
-                height: 10,
-              ),
-              ButtonWidget(
-                text: 'Travel Agency',
-                color: Colors.amber,
-                onPressed: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const HomeTraveAgency(),
-                      ));
-                },
-              ),
-              const SizedBox(
-                height: 10,
-              ),
+
               ButtonWidget(
                 text: 'Sesion 7',
-                color: Colors.red,
+                color: Colors.amber,
                 onPressed: () {
                   Navigator.push(
                       context,
@@ -95,17 +89,15 @@ class MenuWidget extends StatelessWidget {
                       ));
                 },
               ),
-              const SizedBox(
-                height: 10,
-              ),
+
               ButtonWidget(
-                text: 'tikTok',
-                color: Colors.amber,
+                text: 'Sesion 8',
+                color: Colors.red,
                 onPressed: () {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => const ScrollTikTokWidget(),
+                        builder: (context) => const Home8(),
                       ));
                 },
               ),

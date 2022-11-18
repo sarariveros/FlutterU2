@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:sesion_3_1/page/widgetdemo.dart';
-import 'package:sesion_3_1/travel_agency/screen/contacUs.dart';
-import 'package:sesion_3_1/travel_agency/widgets/header.dart';
-import 'package:sesion_3_1/travel_agency/widgets/titleWidget.dart';
+import 'package:sesion_3_1/retos/travel_agency/screen/contacUs.dart';
+import 'package:sesion_3_1/retos/travel_agency/widgets/header.dart';
+import 'package:sesion_3_1/retos/travel_agency/widgets/titleWidget.dart';
 
 class Three extends StatelessWidget {
   const Three({super.key});
@@ -11,15 +11,6 @@ class Three extends StatelessWidget {
   Widget build(BuildContext context) {
     final decoracion = BoxDecoration(color: Color.fromRGBO(242, 242, 242, 8));
     return Scaffold(
-      // appBar: AppBar(
-      //   title: Padding(
-      //     padding: const EdgeInsets.fromLTRB(10, 5, 0, 0),
-      //     child: HeaderWidget(
-      //       page: '3',
-      //     ),
-      //   ),
-      //   automaticallyImplyLeading: false,
-      // ),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.fromLTRB(30, 20, 30, 0),

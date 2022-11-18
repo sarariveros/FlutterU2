@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:sesion_3_1/page/widgetdemo.dart';
-import 'package:sesion_3_1/travel_agency/screen/3.dart';
-import 'package:sesion_3_1/travel_agency/widgets/header.dart';
-import 'package:sesion_3_1/travel_agency/widgets/titleWidget.dart';
+import 'package:sesion_3_1/retos/travel_agency/screen/3.dart';
+import 'package:sesion_3_1/retos/travel_agency/widgets/header.dart';
+import 'package:sesion_3_1/retos/travel_agency/widgets/titleWidget.dart';
 
 class Two extends StatelessWidget {
   const Two({super.key});
@@ -13,15 +13,6 @@ class Two extends StatelessWidget {
     final subtitleStyle = TextStyle(
         color: Colors.black, fontSize: 18, fontWeight: FontWeight.bold);
     return Scaffold(
-      // appBar: AppBar(
-      //   title: Padding(
-      //     padding: const EdgeInsets.fromLTRB(10, 5, 0, 0),
-      //     child: const HeaderWidget(
-      //       page: '2',
-      //     ),
-      //   ),
-      //   automaticallyImplyLeading: false,
-      //),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.fromLTRB(30, 20, 30, 0),
