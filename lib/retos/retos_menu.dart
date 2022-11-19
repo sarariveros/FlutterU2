@@ -10,13 +10,17 @@ class RetosMenu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        automaticallyImplyLeading: false,
+        backgroundColor: Colors.black,
+      ),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20),
         child: Column(
           children: [
             ButtonWidget(
               text: 'Travel Agency',
-              color: Colors.lime,
+              color: Colors.cyan,
               onPressed: () {
                 Navigator.push(
                     context,
@@ -27,7 +31,7 @@ class RetosMenu extends StatelessWidget {
             ),
             ButtonWidget(
               text: 'TikTokScroll',
-              color: Colors.lime,
+              color: Colors.lightGreen,
               onPressed: () {
                 Navigator.push(
                     context,

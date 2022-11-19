@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:sesion_3_1/sesion8/screens/amigosPage.dart';
 import 'package:sesion_3_1/sesion8/screens/bandejaPage.dart';
 import 'package:sesion_3_1/sesion8/screens/homePage.dart';
+import 'package:sesion_3_1/sesion8/screens/likePage.dart';
 
 class Home8 extends StatefulWidget {
   const Home8({super.key});
@@ -16,7 +17,7 @@ class _Home8State extends State<Home8> {
     HomePage(),
     AmigosPage(),
     BandejaPage(),
-    Text('data4'),
+    BlurredScreen(),
     Text('data5'),
   ];
   void onItemTapped(int index) {

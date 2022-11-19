@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:sesion_3_1/sesion8/widgets/InstagramWidget.dart';
-import 'package:sesion_3_1/sesion8/widgets/TikTokWidget.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
